@@ -1,0 +1,38 @@
+.delete-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .delete-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .delete-input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .delete-button {
+    background-color: #FF4D4F;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #FF7875;
+  }
